@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Twitter text box</title>
+  <style>
+    .profile {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+
+    .text-box {
+      border: 1px solid #0000006e;
+      border-radius: 20px;
+      padding: 10px 100px 10px 10px;
+      vertical-align: middle;
+      margin: 0 10px;
+    }
+
+    .tweet-button {
+      background-color: rgb(6, 103, 167);
+      color: white;
+      border: rgb(6, 103, 167);
+      border-radius: 17px;
+      padding: 10px 20px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      margin-left: 10px;
+      vertical-align: middle;
+      transition: box-shadow 0.15s, opacity 0.15s;
+    }
+
+    .tweet-button:hover {
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.17);
+    }
+
+    .tweet-button:active {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="img/dragon.jpg" class="profile" alt="Profile picture">
+  <input type="text" class="text-box" placeholder="What's happening?">
+  <button class="tweet-button">Tweet</button>
+</body>
+
+</html>
