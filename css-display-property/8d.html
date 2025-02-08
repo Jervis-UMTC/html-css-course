@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up</title>
+  <style>
+    input{
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+    }
+
+  
+
+    .name-field{
+      width: 194px;
+      font-size: 20px;
+      margin: 10px 0;
+      padding: 10px;
+    }
+
+    .email-field{
+      display: block;
+      font-size: 20px;
+      width: 415px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .sign-up-button{
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      width: 438px;
+      padding: 10px;
+      border: none;
+      border-radius: 10px;
+      background-color: dodgerblue;
+      color: white;
+      transition: background-color 50ms, opacity 150ms;
+    }
+
+    .sign-up-button:hover{
+      cursor: pointer;
+      background-color: rgb(22, 135, 248);
+    }
+
+    .sign-up-button:active{
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" placeholder="First name" class="name-field">
+  <input type="text" placeholder="Last name" class="name-field">
+  <input type="text" placeholder="Email" class="email-field">
+  <button class="sign-up-button">Sign up</button>
+</body>
+</html>
