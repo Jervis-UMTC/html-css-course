@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Friend</title>
+  <style>
+    .suggested-friend {
+      display: inline-block;
+      font-family: Arial;
+      height: 250px;
+      margin-top: 10px;
+      margin-left: 15px;
+      padding: none;
+      width: 150px;
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+    }
+
+    .profile-pic {
+      width: 100%;
+      height: 150px;
+    }
+
+    .name {
+      margin: 5px 5px 0 5px;
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+    .mutual-count {
+      color: gray;
+      font-size: 11px;
+      display: inline-block;
+      margin-top: 9px;
+    }
+
+    .add-friend-button {
+      margin-top: 10px;
+      margin-left: 5px;
+      font-size: 12px;
+      display: block;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      background-color: #4267B2;
+      color: white;
+      transition: background-color 100ms, opacity 50ms;
+    }
+
+    .add-friend-button:hover {
+      cursor: pointer;
+      background-color: #3a5b9e;
+    }
+
+    .add-friend-button:active {
+      opacity: 0.8;
+    }
+
+    .mutual,
+    .mutual-profile {
+      height: 20px;
+    }
+
+    .mutual-profile {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .mutual-profile-pic{
+      margin: 5px 0 5px 5px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      vertical-align: top;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="suggested-friend">
+    <img src="img/dragon.jpg" alt="Profile" class="profile-pic">
+    <p class="name">Dragnus Seig fried</p>
+    <div class="mutual">
+      <div class="mutual-profile"><img src="img/emperor.jpg" alt="mutual" class="mutual-profile-pic"></div>
+      <p class="mutual-count">2 mutual friends</p>
+    </div>
+    <button class="add-friend-button">Add Friend</button>
+  </div>
+
+  <div class="suggested-friend">
+    <img src="img/emperor.jpg" alt="Profile" class="profile-pic">
+    <p class="name">Human Emperor</p>
+    <div class="mutual">
+      <div class="mutual-profile"><img src="img/dragon.jpg" alt="mutual" class="mutual-profile-pic"></div>
+      <p class="mutual-count">5 mutual friends</p>
+    </div>
+    <button class="add-friend-button">Add Friend</button>
+  </div>
+
+  <div class="suggested-friend">
+    <img src="img/diddy.jpg" alt="Profile" class="profile-pic">
+    <p class="name">Sean Combs</p>
+    <div class="mutual">
+      <div class="mutual-profile"><img src="img/emperor.jpg" alt="mutual" class="mutual-profile-pic"></div>
+      <p class="mutual-count">69 mutual friends</p>
+    </div>
+    <button class="add-friend-button">Add Friend</button>
+  </div>
+</body>
+
+</html>

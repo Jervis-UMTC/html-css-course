@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter</title>
+  <style>
+    p {
+      font-family: Helvetica, sans-serif, Arial;
+    }
+
+    .suggested-follows {}
+
+    .profile-preview {
+      margin-top: 15px;
+      width: 400px;
+      height: 50px;
+    }
+
+    .profile-box {
+      display: inline-block;
+      width: 50px;
+      vertical-align: top;
+    }
+
+    .profile-picture {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+
+    .profile-info {
+      display: inline-block;
+      width: 150px;
+      margin-left: 10px;
+      vertical-align: top;
+    }
+
+    .profile-name,
+    .profile-username,
+    .profile-prestige {
+      font-size: 10px;
+      margin: 0;
+    }
+
+    .profile-name {
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+
+    .profile-username {
+      color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 7px;
+    }
+
+    .profile-prestige {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 9px;
+    }
+
+    .follow-box {
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      margin-top: 6px;
+    }
+
+    .follow-button {
+      display: block;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 10px;
+      background-color: dodgerblue;
+      color: white;
+      transition: background-color 50ms, opacity 150ms;
+    }
+
+    .follow-button:hover {
+      cursor: pointer;
+      background-color: rgb(22, 135, 248);
+    }
+
+    .follow-button:active {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div class="profile-preview">
+      <div class="profile-box">
+        <img src="img/emperor.jpg" alt="profile picture" class="profile-picture">
+      </div>
+      <div class="profile-info">
+        <p class="profile-name">The Emperor</p>
+        <p class="profile-username">God-Emperor</p>
+        <p class="profile-prestige">Popular</p>
+      </div>
+      <div class="follow-box">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+    <div class="profile-preview">
+      <div class="profile-box">
+        <img src="img/dragon.jpg" alt="profile picture" class="profile-picture">
+      </div>
+      <div class="profile-info">
+        <p class="profile-name">Dragonus</p>
+        <p class="profile-username">Frost_Dragon_123</p>
+        <p class="profile-prestige">Popular</p>
+      </div>
+      <div class="follow-box">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+    <div class="profile-preview">
+      <div class="profile-box">
+        <img src="img/google.png" alt="profile picture" class="profile-picture">
+      </div>
+      <div class="profile-info">
+        <p class="profile-name">Google</p>
+        <p class="profile-username">google-com</p>
+        <p class="profile-prestige">Popular</p>
+      </div>
+      <div class="follow-box">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+    <div class="profile-preview">
+      <div class="profile-box">
+        <img src="img/diddy.jpg" alt="profile picture" class="profile-picture">
+      </div>
+      <div class="profile-info">
+        <p class="profile-name">Sean Combs</p>
+        <p class="profile-username">diddy</p>
+        <p class="profile-prestige">Popular</p>
+      </div>
+      <div class="follow-box">
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
