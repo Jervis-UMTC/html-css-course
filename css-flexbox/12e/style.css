@@ -1,0 +1,27 @@
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.box{
+  width: 250px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+}
+.row button {
+  display: block; 
+  border: none;
+ background-color: royalblue;  
+ color: white; 
+ padding: 5px 10px;
+ border-radius: 12px; 
+}

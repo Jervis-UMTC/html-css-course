@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  background-color: #9A4FCF;
+  justify-content: space-between;
+  align-items: center ;
+} 
+
+.home-text{
+  margin: 0 20px;
+  font-weight: 600;
+  color: white;
+  font-size: 22px;
+}
+
+.download-button{
+  margin: 0 20px;
+  background-color: #9A4FCF;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+.search-box{
+  flex:1;
+  max-width: 700px;
+}
+.search-field{
+  width: 100%;
+  padding: 7px 10px;
+  border:none;
+  border-radius: 50px;
+}
