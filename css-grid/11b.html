@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid</title>
+  <style>
+    .grid{
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+    }
+    .green{
+      background-color: green;
+      font-size: 20px;
+    }
+    .red{
+      background-color: red;
+      font-size: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="green"><p>col1</p></div>
+    <div class="red"><p>col2</p></div>
+    <div class="green"><p>col3</p></div>
+  </div>
+</body>
+</html>
