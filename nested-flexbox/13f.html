@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13f</title>
+  <style>
+    .tweet{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serifs;
+    }
+    .tweet .profile-pic{
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+    }
+
+    .tweet-content{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+    }
+    .tweet-content *{
+      padding: 0;
+      margin: 0;
+      color: rgb(14, 14, 14);
+    }
+
+    .name{
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .username{
+      font-weight: 500;
+      color: grey;
+    }
+    .link-preview{
+      margin-top: 20px;
+      height: 100px;
+      display: flex;
+      border: solid 2px rgb(218, 218, 218);
+      border-radius: 23px;
+    }
+    .link-preview *{
+      padding: 0;
+      margin: 0;
+    }
+    .link-thumbnail{  
+      width: 150px;
+      background-color: rgb(218, 218, 218);
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+
+    .link{
+      color: grey;
+    }
+
+    .link-details{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tweet">
+    <img src="./img/diddy.jpg" alt="" class="profile-pic">
+    <div class="tweet-content">
+      <p class="name">Sean Combs <span class="username">@puff.daddy</span></p>
+      <p class="context">Take a look at my party! I really love a diddy party.</p>
+      <div class="link-preview">
+        <div class="link-thumbnail"></div>
+        <div class="link-details">
+          <p class="link">youtube.com</p>
+          <p>A diddy party, a sneak peak to the most prestigious party</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

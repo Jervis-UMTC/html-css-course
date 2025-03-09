@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13cde</title>
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    p, span{
+      font-family: sans-serif;
+      font-size: 14px;
+      margin: 0;
+      padding: 0;
+    }
+    .mail-container{
+      margin: 20px 40px;
+      width:460px;
+      padding: 10px 10px 30px 10px;
+      border: solid 1px rgb(211, 211, 211);
+      border-radius: 10px;
+      box-shadow: 1px 1px rgb(211, 211, 211); 
+    }
+    .title{
+      font-size: 14px;
+      color: grey;
+    }
+    .mail{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 10px;
+    }
+    .sender-img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .head{
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 5px;
+    }
+
+    .mail-sender{
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .mail-time
+    {
+      font-size: 14px;
+      color: grey;
+    }
+
+    .mail-subject
+    {
+      font-size: 16px;
+      font-weight: bold;
+      padding-bottom: 5px;
+    }
+
+    .mail-body
+    {
+      font-size: 14px;
+      color: grey;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="mail-container">
+    <span class="title">ALL INBOXES</span>
+    <div class="mail">
+      <img src="./img/dragon.jpg" class="sender-img">
+      <div class="mail-preview">
+        <div class="head">
+          <p class="mail-sender">Dragonus</p>
+          <p class="mail-time">10:00 AM</p>
+        </div>
+        <p class="mail-subject">Story of Winter Wyvern</p>
+        <p class="mail-body">Like many great poets, Auroth just wants time to write, but the...</p> 
+      </div>
+    </div>
+    <div class="mail">
+      <img src="./img/diddy.jpg" class="sender-img">
+      <div class="mail-preview">
+        <div class="head">
+          <p class="mail-sender">Puff Daddy</p>
+          <p class="mail-time">9:35 AM</p>
+        </div>
+        <p class="mail-subject">Diddy Party</p>
+        <p class="mail-body">Come here 12:00, we got things and lots of things to do, bring...</p> 
+      </div>
+    </div>
+    <div class="mail">
+      <img src="./img/emperor.jpg" class="sender-img">
+      <div class="mail-preview">
+        <div class="head">
+          <p class="mail-sender">The Human Emperor</p>
+          <p class="mail-time">7:32 AM</p>
+        </div>
+        <p class="mail-subject">War in the 8th Sector</p>
+        <p class="mail-body">Great general, the front needs you for support, rally your army...</p> 
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+</html>

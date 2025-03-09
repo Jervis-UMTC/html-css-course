@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13B</title>
+  <style>
+    .container {
+      display: flex;
+      height: 50px;
+      width: 300px;
+    }
+
+    .regdiv {
+      width: 100px;
+      background-color: lightpink;
+    }
+
+    .flexdiv1 {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      background-color: lightblue;
+    }
+
+    .flexdiv2 {
+      display: flex;
+      flex: 1;
+      background-color: lightblue;
+      align-items: center;
+      justify-content: right;
+    }
+
+    .row1 {
+      font-weight: 600;
+    }
+
+    .row2 {
+      width: min-content;
+      font-weight: 600;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="regdiv"></div>
+    <div class="flexdiv1">
+      <span class="row1">row1</span>
+      <span class="row2">row2</span>
+    </div>
+    <div class="flexdiv2">
+      <span class="row2">row2</span>
+    </div>
+  </div>
+</body>
+
+</html>
