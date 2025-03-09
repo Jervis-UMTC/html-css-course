@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14e</title>
+  <style>
+    body{
+      background-color: gray;
+      margin: 0;
+      padding-bottom: 1000px;
+    }
+    .fb-header{
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      position: fixed;
+      left: 0;
+      right: 0;
+      justify-content: space-between;
+    }
+    .fb-header{
+      margin: 0;
+      padding: 0;
+    }
+
+    .fb-header img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+    .profile{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-left: 100px;
+      column-gap: 10px;
+    }
+    .profile-name{
+      font-size: 18px;
+      font-weight: 600;
+      
+    }
+
+    .actions{
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      margin-right: 100px;
+      column-gap: 10px;
+    }
+
+    .actions button{
+      padding: 10px 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .add-friend-btn{
+      background-color: royalblue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="fb-header">
+    <div class="profile">
+      <img src="img/emperor.jpg" alt="">
+      <span class="profile-name">Emperor</span>
+    </div>
+    <div class="actions">
+      <button class="add-friend-btn">Add Friend</button>
+      <button class="message-btn">Message</button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14f Discord</title>
+  <style>
+    body{
+      padding-bottom: 1000px;
+      background-color: grey;
+    }
+     .sidebar{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: row; 
+    }
+    .channels{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px;
+      background-color: #1E201E;
+    }
+
+    .channels img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+
+    .channel-content{
+      width: 200px;
+      padding: 20px;
+      background-color: #474744;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .channel-content *{
+      font-family: Helvetica, sans-serif;
+      font-size: 18px;
+
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+
+    .channel-name{
+      font-weight: 600;
+      color: white;
+    }
+    
+    .title{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .plus-sign{
+      font-size: 24px;
+      font-weight: 600;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="channels">
+      <img src="./img/emperor.jpg" alt="">
+      <img src="./img/emperor.jpg" alt="">
+      <img src="./img/emperor.jpg" alt="">
+    </div>
+    <div class="channel-content">
+      <div class="title">
+        <span class="channel-name">INFO</span>
+        <span class="plus-sign">+</span>
+      </div class="channel-chats">
+      <span class="chat"># new videos</span>
+      <span class="chat"># updates</span>
+      <span class="chat"># faq</span>
+    </div>
+  </div>
+</body>
+</html>
